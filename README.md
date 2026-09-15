@@ -21,6 +21,11 @@ scrapy crawl books
 
 Output lands in `output/products_<timestamp>.csv`.
 
+## Sample Output
+
+![Crawl in progress](Screenshot%202026-09-15%20151520.png)
+![CSV output](Screenshot%202026-09-15%20151714.png)
+
 ## Adapting for a real client job
 
 1. Change `start_urls` and `allowed_domains` in `books_spider.py`
